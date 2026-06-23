@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="f0dcd2f5086403100a22e9371c04a41d" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element label="Confidential" max_length="255" name="x_58872_needit_confidential" type="boolean"/>
+        <element label="Resolution Group 2" max_length="32" name="x_58872_needit_resolution_group_2" reference="sys_user_group" type="reference"/>
+    </element>
+</database>
